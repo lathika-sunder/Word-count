@@ -6,20 +6,36 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
+Assign a variable for value zero
 
-### Step 2: 
- 
-### Step 3: 
+### Step 2:
+open then required file by using the function "with"
 
-### Step 4:  
+### Step 3:
+Then use the for loop for assigning the i value in the file
 
-### Step 5: 
+### Step 4:
+using split function to split the words
 
-### Step 6: 
+### Step 5:
+Finding the length of the words by using len() function
+
+### Step 6:
+Calling the function and printing the number of words.
 
 ## PROGRAM:
+```
+with open("word_name.txt","r")as fp:
+    count=0
+    for data in fp:
+        x=data.split()
+        for i in x:
+            count+=1
+        print("Number of words : ",count)
+```
 
 ### OUTPUT:
+![output1](./word1.png)
 
 
 
